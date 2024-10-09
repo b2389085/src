@@ -667,7 +667,7 @@ echo '.'
 
 # Re-link the kernel, placing the objects in a random order.
 # Replace current with relinked kernel and inform root about it.
-/usr/libexec/reorder_kernel &
+#/usr/libexec/reorder_kernel &
 
 date
 exit 0
